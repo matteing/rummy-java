@@ -3,12 +3,12 @@ package proj2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Proj2 {
     public static void printState(Hand hand, Engine engine) {
         System.out.printf("Hand: %s%n", hand.toString());
         for (int i = 0; i < hand.findSets().size(); i++) {
             ArrayList<Card> set = (ArrayList<Card>) hand.findSets().get(i);
-            System.out.println(String.format("Set %s: %s", i + 1, set.toString()));
+            System.out.printf("Set %s: %s%n", i + 1, set.toString());
         }
         System.out.printf("Stack: %s%n", engine.getStack().toString());
         System.out.printf("Table: %s%n", engine.getTable().toString());
