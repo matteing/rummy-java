@@ -12,6 +12,6 @@ public class DiscardOperation implements Operation {
     public void execute(Engine engine) {
         Card card = hand.getCard(idx);
         hand.removeCard(card);
-        engine.getStack().addCard(card);
+        engine.getStack().push(card);
     }
 }

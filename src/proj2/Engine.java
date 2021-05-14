@@ -7,13 +7,16 @@ public class Engine implements EngineInterface {
     private ArrayList<Operation> queue;
     private ArrayList<Card> table;
     private Deck deck;
-    private Deck stack;
+    private Pile stack;
 
+    /**
+     * Initialize the game and deck.
+     */
     public Engine() {
         queue = new ArrayList<Operation>();
         table = new ArrayList<Card>();
         deck = new Deck();
-        stack = new Deck();
+        stack = new Pile();
 
         // Distribute initial cards to deck
         for(int i = 0; i < Card.suit.length; i++){
@@ -30,6 +33,10 @@ public class Engine implements EngineInterface {
         queue.add(op);
     }
 
+    /**
+     * Take an operation and render it immediately.
+     * @param op - An Operation-derived class
+     */
     public void takeAndRender(Operation op) {
         queue.add(op);
         render();
@@ -42,14 +49,21 @@ public class Engine implements EngineInterface {
         queue.clear();
     }
 
+    /**
+     * Initialize the hand with the initial deal.
+     * @param hand
+     */
     public void initializeHand(Hand hand) {
         for (int i = 0; i < initialDealCount; i++) {
             hand.addCard(deck.dealCard());
         }
     }
 
+    /**
+     * Initializes the stack with a single card from the deck.
+     */
     public void initializeStack() {
-        stack.addCard(deck.dealCard());
+        stack.push(deck.dealCard());
     }
 
     public ArrayList getTable() {
@@ -60,7 +74,7 @@ public class Engine implements EngineInterface {
         return deck;
     }
 
-    public Deck getStack() {
+    public Pile getStack() {
         return stack;
     }
 }

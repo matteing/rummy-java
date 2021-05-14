@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class MyStack<T> implements MyStackInterface {
     protected ArrayList<Object> stack;
 
-    public MyStack(int size) {
+    public MyStack() {
         stack = new ArrayList<Object>();
     }
 
@@ -34,4 +34,6 @@ public class MyStack<T> implements MyStackInterface {
     public boolean isEmpty() {
         return stack.isEmpty();
     }
+
+    public String toString() { return stack.toString(); }
 }

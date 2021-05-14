@@ -8,6 +8,6 @@ public class DrawFromStackOperation implements Operation {
     }
 
     public void execute(Engine engine) {
-        hand.addCard(engine.getStack().dealCard());
+        hand.addCard(engine.getStack().pop());
     }
 }

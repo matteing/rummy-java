@@ -35,6 +35,10 @@ public class Hand implements HandInterface {
    }
 
 
+    /**
+     * Creates a multidimensional arraylist of sets present within this hand.
+     * @return multidimensional ArrayList of sets.
+     */
     public ArrayList findSets(){
        ArrayList<ArrayList<Card>> sets = new ArrayList<>();
         for(int i = 0; i < Card.rank.length; i++) {

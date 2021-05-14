@@ -4,9 +4,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Proj2 {
+    /**
+     * This function prints the current state of the game.
+     * @return void
+     */
     public static void printState(Hand hand, Engine engine) {
         System.out.printf("Hand: %s%n", hand.toString());
         for (int i = 0; i < hand.findSets().size(); i++) {
+            // findSets returns a multidimensional list of lists of Card objects.
             ArrayList<Card> set = (ArrayList<Card>) hand.findSets().get(i);
             System.out.printf("Set %s: %s%n", i + 1, set.toString());
         }
