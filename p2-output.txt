@@ -1,688 +1,475 @@
-Initial Player 1: [kc, 5c, 2d, as, 9c, jd, 5s, 7d, 4d]
-Initial Player 2: [4c, 2c, 3s, kh, 7h, 7s, 6s, qs, 8s]
+Initial Player 1: [qh, 7c, 4c, 9d, 4h, th, 6d, tc, 7d]
+Initial Player 2: [5c, 8h, kc, kd, jc, 6s, js, kh, 6h]
 --------------Player 1--------------
-Hand: [kc, 5c, 2d, as, 9c, jd, 5s, 7d, 4d]
-Set 1: [5c, 5s]
-Stack: [8h]
+Hand: [qh, 7c, 4c, 9d, 4h, th, 6d, tc, 7d]
+Stack: [9h]
 Table: []
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [kc, 5c, 2d, as, 9c, jd, 5s, 7d, 4d, 7c]
-Set 1: [5c, 5s]
-Set 2: [7d, 7c]
-Stack: [8h]
+Hand: [qh, 7c, 4c, 9d, 4h, th, 6d, tc, 7d, ks]
+Stack: [9h]
 Table: []
-LAY: Lay a set? (n/set #...)
-n/set #> 1
-Laying set 1.
-Hand: [kc, 2d, as, 9c, jd, 7d, 4d, 7c]
-Set 1: [7d, 7c]
-Stack: [8h]
-Table: [5c, 5s]
-DISCARD: Which card to discard? 1...8
-1...8> 8
-Discarding card 8.
+DISCARD: Which card to discard? 1...10
+1...10> 1
+Discarding card 1.
 --------------Player 2--------------
-Hand: [4c, 2c, 3s, kh, 7h, 7s, 6s, qs, 8s]
-Set 1: [7h, 7s]
-Stack: [8h, 7c]
-Table: [5c, 5s]
+Hand: [5c, 8h, kc, kd, jc, 6s, js, kh, 6h]
+Set 1: [kc, kd, kh]
+Stack: [9h, qh]
+Table: []
 DRAW: deck or stack?
 deck/stack?> stack
 Drew from stack.
-Hand: [4c, 2c, 3s, kh, 7h, 7s, 6s, qs, 8s, 8h]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c]
-Table: [5c, 5s]
+Hand: [5c, 8h, kc, kd, jc, 6s, js, kh, 6h, qh]
+Set 1: [kc, kd, kh]
+Stack: [9h]
+Table: []
 LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [4c, 2c, 3s, kh, 7h, 7s, 6s, qs, 8s, 8h]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c]
-Table: [5c, 5s]
+n/set #> 1
+Laying set 1.
+Hand: [5c, 8h, jc, 6s, js, 6h, qh]
+Stack: [9h]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
+--------------Player 1--------------
+Hand: [7c, 4c, 9d, 4h, th, 6d, tc, 7d, ks]
+Stack: [9h, qh]
+Table: [kc, kd, kh]
+DRAW: deck or stack?
+deck/stack?> deck
+Drew from deck.
+Hand: [7c, 4c, 9d, 4h, th, 6d, tc, 7d, ks, 2s]
+Stack: [9h, qh]
+Table: [kc, kd, kh]
 DISCARD: Which card to discard? 1...10
 1...10> 1
 Discarding card 1.
---------------Player 1--------------
-Hand: [kc, 2d, as, 9c, jd, 7d, 4d]
-Stack: [7c, 4c]
-Table: [5c, 5s]
-DRAW: deck or stack?
-deck/stack?> deck
-Drew from deck.
-Hand: [kc, 2d, as, 9c, jd, 7d, 4d, 5d]
-Stack: [7c, 4c]
-Table: [5c, 5s]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [kc, 2d, as, 9c, jd, 7d, 4d, 5d]
-Stack: [7c, 4c]
-Table: [5c, 5s]
-DISCARD: Which card to discard? 1...8
-1...8> 1
-Discarding card 1.
 --------------Player 2--------------
-Hand: [2c, 3s, kh, 7h, 7s, 6s, qs, 8s, 8h]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc]
-Table: [5c, 5s]
+Hand: [5c, 8h, jc, 6s, js, 6h]
+Stack: [9h, qh, 7c]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [2c, 3s, kh, 7h, 7s, 6s, qs, 8s, 8h, qc]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Set 3: [qs, qc]
-Stack: [7c, 4c, kc]
-Table: [5c, 5s]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [2c, 3s, kh, 7h, 7s, 6s, qs, 8s, 8h, qc]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Set 3: [qs, qc]
-Stack: [7c, 4c, kc]
-Table: [5c, 5s]
+Hand: [5c, 8h, jc, 6s, js, 6h, 3c]
+Stack: [9h, qh, 7c]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
+--------------Player 1--------------
+Hand: [4c, 9d, 4h, th, 6d, tc, 7d, ks, 2s]
+Stack: [9h, qh, 7c, 3c]
+Table: [kc, kd, kh]
+DRAW: deck or stack?
+deck/stack?> deck
+Drew from deck.
+Hand: [4c, 9d, 4h, th, 6d, tc, 7d, ks, 2s, 2h]
+Stack: [9h, qh, 7c, 3c]
+Table: [kc, kd, kh]
 DISCARD: Which card to discard? 1...10
 1...10> 1
 Discarding card 1.
---------------Player 1--------------
-Hand: [2d, as, 9c, jd, 7d, 4d, 5d]
-Stack: [7c, 4c, kc, 2c]
-Table: [5c, 5s]
+--------------Player 2--------------
+Hand: [5c, 8h, jc, 6s, js, 6h]
+Stack: [9h, qh, 7c, 3c, 4c]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [2d, as, 9c, jd, 7d, 4d, 5d, 8d]
-Stack: [7c, 4c, kc, 2c]
-Table: [5c, 5s]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [2d, as, 9c, jd, 7d, 4d, 5d, 8d]
-Stack: [7c, 4c, kc, 2c]
-Table: [5c, 5s]
-DISCARD: Which card to discard? 1...8
-1...8> 1
+Hand: [5c, 8h, jc, 6s, js, 6h, 5s]
+Stack: [9h, qh, 7c, 3c, 4c]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...7
+1...7> 1
+Discarding card 1.
+--------------Player 1--------------
+Hand: [9d, 4h, th, 6d, tc, 7d, ks, 2s, 2h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c]
+Table: [kc, kd, kh]
+DRAW: deck or stack?
+deck/stack?> deck
+Drew from deck.
+Hand: [9d, 4h, th, 6d, tc, 7d, ks, 2s, 2h, qd]
+Stack: [9h, qh, 7c, 3c, 4c, 5c]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...10
+1...10> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [3s, kh, 7h, 7s, 6s, qs, 8s, 8h, qc]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Set 3: [qs, qc]
-Stack: [7c, 4c, kc, 2c, 2d]
-Table: [5c, 5s]
+Hand: [8h, jc, 6s, js, 6h, 5s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [3s, kh, 7h, 7s, 6s, qs, 8s, 8h, qc, 2s]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Set 3: [qs, qc]
-Stack: [7c, 4c, kc, 2c, 2d]
-Table: [5c, 5s]
-LAY: Lay a set? (n/set #...)
-n/set #> 3
-Laying set 3.
-Hand: [3s, kh, 7h, 7s, 6s, 8s, 8h, 2s]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d]
-Table: [5c, 5s, qs, qc]
-DISCARD: Which card to discard? 1...8
-1...8> 1
+Hand: [8h, jc, 6s, js, 6h, 5s, 8d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [as, 9c, jd, 7d, 4d, 5d, 8d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s]
-Table: [5c, 5s, qs, qc]
+Hand: [4h, th, 6d, tc, 7d, ks, 2s, 2h, qd]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [as, 9c, jd, 7d, 4d, 5d, 8d, ks]
-Stack: [7c, 4c, kc, 2c, 2d, 3s]
-Table: [5c, 5s, qs, qc]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [as, 9c, jd, 7d, 4d, 5d, 8d, ks]
-Stack: [7c, 4c, kc, 2c, 2d, 3s]
-Table: [5c, 5s, qs, qc]
-DISCARD: Which card to discard? 1...8
-1...8> 1
+Hand: [4h, th, 6d, tc, 7d, ks, 2s, 2h, qd, ad]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...10
+1...10> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [kh, 7h, 7s, 6s, 8s, 8h, 2s]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as]
-Table: [5c, 5s, qs, qc]
+Hand: [jc, 6s, js, 6h, 5s, 8d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, 4h]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
-deck/stack?> deck
-Drew from deck.
-Hand: [kh, 7h, 7s, 6s, 8s, 8h, 2s, ah]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as]
-Table: [5c, 5s, qs, qc]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [kh, 7h, 7s, 6s, 8s, 8h, 2s, ah]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as]
-Table: [5c, 5s, qs, qc]
-DISCARD: Which card to discard? 1...8
-1...8> 1
+deck/stack?> stack
+Drew from stack.
+Hand: [jc, 6s, js, 6h, 5s, 8d, 4h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [9c, jd, 7d, 4d, 5d, 8d, ks]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh]
-Table: [5c, 5s, qs, qc]
+Hand: [th, 6d, tc, 7d, ks, 2s, 2h, qd, ad]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [9c, jd, 7d, 4d, 5d, 8d, ks, tc]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh]
-Table: [5c, 5s, qs, qc]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [9c, jd, 7d, 4d, 5d, 8d, ks, tc]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh]
-Table: [5c, 5s, qs, qc]
-DISCARD: Which card to discard? 1...8
-1...8> 1
+Hand: [th, 6d, tc, 7d, ks, 2s, 2h, qd, ad, 7s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...10
+1...10> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [7h, 7s, 6s, 8s, 8h, 2s, ah]
-Set 1: [7h, 7s]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c]
-Table: [5c, 5s, qs, qc]
+Hand: [6s, js, 6h, 5s, 8d, 4h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [7h, 7s, 6s, 8s, 8h, 2s, ah, 6c]
-Set 1: [6s, 6c]
-Set 2: [7h, 7s]
-Set 3: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c]
-Table: [5c, 5s, qs, qc]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [7h, 7s, 6s, 8s, 8h, 2s, ah, 6c]
-Set 1: [6s, 6c]
-Set 2: [7h, 7s]
-Set 3: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c]
-Table: [5c, 5s, qs, qc]
-DISCARD: Which card to discard? 1...8
-1...8> 1
+Hand: [6s, js, 6h, 5s, 8d, 4h, jd]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th]
+Table: [kc, kd, kh]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [jd, 7d, 4d, 5d, 8d, ks, tc]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h]
-Table: [5c, 5s, qs, qc]
+Hand: [6d, tc, 7d, ks, 2s, 2h, qd, ad, 7s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s]
+Table: [kc, kd, kh]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [jd, 7d, 4d, 5d, 8d, ks, tc, 4s]
-Set 1: [4d, 4s]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h]
-Table: [5c, 5s, qs, qc]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [jd, 7d, 4d, 5d, 8d, ks, tc, 4s]
-Set 1: [4d, 4s]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h]
-Table: [5c, 5s, qs, qc]
-DISCARD: Which card to discard? 1...8
-1...8> 1
-Discarding card 1.
---------------Player 2--------------
-Hand: [7s, 6s, 8s, 8h, 2s, ah, 6c]
-Set 1: [6s, 6c]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd]
-Table: [5c, 5s, qs, qc]
-DRAW: deck or stack?
-deck/stack?> deck
-Drew from deck.
-Hand: [7s, 6s, 8s, 8h, 2s, ah, 6c, 9s]
-Set 1: [6s, 6c]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd]
-Table: [5c, 5s, qs, qc]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [7s, 6s, 8s, 8h, 2s, ah, 6c, 9s]
-Set 1: [6s, 6c]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd]
-Table: [5c, 5s, qs, qc]
-DISCARD: Which card to discard? 1...8
-1...8> 1
-Discarding card 1.
---------------Player 1--------------
-Hand: [7d, 4d, 5d, 8d, ks, tc, 4s]
-Set 1: [4d, 4s]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s]
-Table: [5c, 5s, qs, qc]
-DRAW: deck or stack?
-deck/stack?> deck
-Drew from deck.
-Hand: [7d, 4d, 5d, 8d, ks, tc, 4s, 6h]
-Set 1: [4d, 4s]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s]
-Table: [5c, 5s, qs, qc]
+Hand: [6d, tc, 7d, ks, 2s, 2h, qd, ad, 7s, 2d]
+Set 1: [2s, 2h, 2d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s]
+Table: [kc, kd, kh]
 LAY: Lay a set? (n/set #...)
 n/set #> 1
 Laying set 1.
-Hand: [7d, 5d, 8d, ks, tc, 6h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s]
-Table: [5c, 5s, qs, qc, 4d, 4s]
-DISCARD: Which card to discard? 1...6
-1...6> 1
+Hand: [6d, tc, 7d, ks, qd, ad, 7s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [6s, 8s, 8h, 2s, ah, 6c, 9s]
-Set 1: [6s, 6c]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d]
-Table: [5c, 5s, qs, qc, 4d, 4s]
+Hand: [js, 6h, 5s, 8d, 4h, jd]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [6s, 8s, 8h, 2s, ah, 6c, 9s, qh]
-Set 1: [6s, 6c]
-Set 2: [8s, 8h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d]
-Table: [5c, 5s, qs, qc, 4d, 4s]
-LAY: Lay a set? (n/set #...)
-n/set #> 2
-Laying set 2.
-Hand: [6s, 2s, ah, 6c, 9s, qh]
-Set 1: [6s, 6c]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-DISCARD: Which card to discard? 1...6
-1...6> 1
+Hand: [js, 6h, 5s, 8d, 4h, jd, 8c]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [5d, 8d, ks, tc, 6h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
+Hand: [tc, 7d, ks, qd, ad, 7s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [5d, 8d, ks, tc, 6h, 2h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [5d, 8d, ks, tc, 6h, 2h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-DISCARD: Which card to discard? 1...6
-1...6> 1
+Hand: [tc, 7d, ks, qd, ad, 7s, 5d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [2s, ah, 6c, 9s, qh]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
+Hand: [6h, 5s, 8d, 4h, jd, 8c]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [2s, ah, 6c, 9s, qh, 9d]
-Set 1: [9s, 9d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [2s, ah, 6c, 9s, qh, 9d]
-Set 1: [9s, 9d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-DISCARD: Which card to discard? 1...6
-1...6> 1
+Hand: [6h, 5s, 8d, 4h, jd, 8c, 3h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [8d, ks, tc, 6h, 2h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
+Hand: [7d, ks, qd, ad, 7s, 5d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [8d, ks, tc, 6h, 2h, 9h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [8d, ks, tc, 6h, 2h, 9h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-DISCARD: Which card to discard? 1...6
-1...6> 6
-Discarding card 6.
+Hand: [7d, ks, qd, ad, 7s, 5d, 9s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
+Discarding card 1.
 --------------Player 2--------------
-Hand: [ah, 6c, 9s, qh, 9d]
-Set 1: [9s, 9d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
+Hand: [5s, 8d, 4h, jd, 8c, 3h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [ah, 6c, 9s, qh, 9d, ac]
-Set 1: [ah, ac]
-Set 2: [9s, 9d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h]
-LAY: Lay a set? (n/set #...)
-n/set #> 2
-Laying set 2.
-Hand: [ah, 6c, qh, ac]
-Set 1: [ah, ac]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-DISCARD: Which card to discard? 1...4
-1...4> 1
+Hand: [5s, 8d, 4h, jd, 8c, 3h, 5h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [8d, ks, tc, 6h, 2h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
+Hand: [ks, qd, ad, 7s, 5d, 9s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [8d, ks, tc, 6h, 2h, 4h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [8d, ks, tc, 6h, 2h, 4h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-DISCARD: Which card to discard? 1...6
-1...6> 1
+Hand: [ks, qd, ad, 7s, 5d, 9s, 4s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [6c, qh, ac]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
+Hand: [8d, 4h, jd, 8c, 3h, 5h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [6c, qh, ac, 3h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [6c, qh, ac, 3h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-DISCARD: Which card to discard? 1...4
-1...4> 1
+Hand: [8d, 4h, jd, 8c, 3h, 5h, 4d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [ks, tc, 6h, 2h, 4h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
+Hand: [qd, ad, 7s, 5d, 9s, 4s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [ks, tc, 6h, 2h, 4h, jh]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [ks, tc, 6h, 2h, 4h, jh]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-DISCARD: Which card to discard? 1...6
-1...6> 1
+Hand: [qd, ad, 7s, 5d, 9s, 4s, qs]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [qh, ac, 3h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
+Hand: [4h, jd, 8c, 3h, 5h, 4d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [qh, ac, 3h, td]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [qh, ac, 3h, td]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-DISCARD: Which card to discard? 1...4
-1...4> 4
-Discarding card 4.
---------------Player 1--------------
-Hand: [tc, 6h, 2h, 4h, jh]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-DRAW: deck or stack?
-deck/stack?> deck
-Drew from deck.
-Hand: [tc, 6h, 2h, 4h, jh, 6d]
-Set 1: [6h, 6d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d]
-LAY: Lay a set? (n/set #...)
-n/set #> 1
-Laying set 1.
-Hand: [tc, 2h, 4h, jh]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
-DISCARD: Which card to discard? 1...4
-1...4> 1
-Discarding card 1.
---------------Player 2--------------
-Hand: [qh, ac, 3h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
-DRAW: deck or stack?
-deck/stack?> deck
-Drew from deck.
-Hand: [qh, ac, 3h, 5h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [qh, ac, 3h, 5h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
-DISCARD: Which card to discard? 1...4
-1...4> 1
+Hand: [4h, jd, 8c, 3h, 5h, 4d, 9c]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [2h, 4h, jh]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
+Hand: [ad, 7s, 5d, 9s, 4s, qs]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [2h, 4h, jh, kd]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [2h, 4h, jh, kd]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
-DISCARD: Which card to discard? 1...4
-1...4> 1
+Hand: [ad, 7s, 5d, 9s, 4s, qs, 3d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [ac, 3h, 5h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
+Hand: [jd, 8c, 3h, 5h, 4d, 9c]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [ac, 3h, 5h, ad]
-Set 1: [ac, ad]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d]
-LAY: Lay a set? (n/set #...)
-n/set #> 1
-Laying set 1.
-Hand: [3h, 5h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
-DISCARD: Which card to discard? 1...2
-1...2> 1
+Hand: [jd, 8c, 3h, 5h, 4d, 9c, ts]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [4h, jh, kd]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
+Hand: [7s, 5d, 9s, 4s, qs, 3d]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [4h, jh, kd, th]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [4h, jh, kd, th]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
-DISCARD: Which card to discard? 1...4
-1...4> 1
+Hand: [7s, 5d, 9s, 4s, qs, 3d, 3s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 2--------------
-Hand: [5h]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
+Hand: [8c, 3h, 5h, 4d, 9c, ts]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [5h, 3c]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [5h, 3c]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
-DISCARD: Which card to discard? 1...2
-1...2> 1
+Hand: [8c, 3h, 5h, 4d, 9c, ts, jh]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
 --------------Player 1--------------
-Hand: [jh, kd, th]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
+Hand: [5d, 9s, 4s, qs, 3d, 3s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [jh, kd, th, ts]
-Set 1: [th, ts]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad]
-LAY: Lay a set? (n/set #...)
-n/set #> 1
-Laying set 1.
-Hand: [jh, kd]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-DISCARD: Which card to discard? 1...2
-1...2> 1
-Discarding card 1.
+Hand: [5d, 9s, 4s, qs, 3d, 3s, ah]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
 --------------Player 2--------------
-Hand: [3c]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
+Hand: [3h, 5h, 4d, 9c, ts, jh]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [3c, 8c]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [3c, 8c]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-DISCARD: Which card to discard? 1...2
-1...2> 1
-Discarding card 1.
+Hand: [3h, 5h, 4d, 9c, ts, jh, td]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
 --------------Player 1--------------
-Hand: [kd]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
+Hand: [5d, 9s, 4s, qs, 3d, 3s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [kd, jc]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [kd, jc]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-DISCARD: Which card to discard? 1...2
-1...2> 1
-Discarding card 1.
+Hand: [5d, 9s, 4s, qs, 3d, 3s, as]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
 --------------Player 2--------------
-Hand: [8c]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
+Hand: [3h, 5h, 4d, 9c, ts, jh]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [8c, js]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [8c, js]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-DISCARD: Which card to discard? 1...2
-1...2> 1
-Discarding card 1.
+Hand: [3h, 5h, 4d, 9c, ts, jh, 7h]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
 --------------Player 1--------------
-Hand: [jc]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd, 8c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
+Hand: [5d, 9s, 4s, qs, 3d, 3s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [jc, qd]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd, 8c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [jc, qd]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd, 8c]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-DISCARD: Which card to discard? 1...2
-1...2> 1
-Discarding card 1.
+Hand: [5d, 9s, 4s, qs, 3d, 3s, 8s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
 --------------Player 2--------------
-Hand: [js]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd, 8c, jc]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
+Hand: [3h, 5h, 4d, 9c, ts, jh]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s]
+Table: [kc, kd, kh, 2s, 2h, 2d]
 DRAW: deck or stack?
 deck/stack?> deck
 Drew from deck.
-Hand: [js, 3d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd, 8c, jc]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-LAY: Lay a set? (n/set #...)
-n/set #> n
-Hand: [js, 3d]
-Stack: [7c, 4c, kc, 2c, 2d, 3s, as, kh, 9c, 7h, jd, 7s, 7d, 6s, 5d, 2s, 9h, ah, 8d, 6c, ks, td, tc, qh, 2h, 3h, 4h, 5h, jh, 3c, kd, 8c, jc]
-Table: [5c, 5s, qs, qc, 4d, 4s, 8s, 8h, 9s, 9d, 6h, 6d, ac, ad, th, ts]
-DISCARD: Which card to discard? 1...2
-1...2> 1
+Hand: [3h, 5h, 4d, 9c, ts, jh, ac]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
+--------------Player 1--------------
+Hand: [5d, 9s, 4s, qs, 3d, 3s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s, ac]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DRAW: deck or stack?
+deck/stack?> deck
+Drew from deck.
+Hand: [5d, 9s, 4s, qs, 3d, 3s, qc]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s, ac]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
+--------------Player 2--------------
+Hand: [3h, 5h, 4d, 9c, ts, jh]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s, ac, qc]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DRAW: deck or stack?
+deck/stack?> deck
+Drew from deck.
+Hand: [3h, 5h, 4d, 9c, ts, jh, 6c]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s, ac, qc]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 7
+Discarding card 7.
+--------------Player 1--------------
+Hand: [5d, 9s, 4s, qs, 3d, 3s]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s, ac, qc, 6c]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DRAW: deck or stack?
+deck/stack?> deck
+Drew from deck.
+Hand: [5d, 9s, 4s, qs, 3d, 3s, 2c]
+Stack: [9h, qh, 7c, 3c, 4c, 5c, 9d, 8h, jc, th, 6s, 6d, js, tc, 6h, 7d, 5s, ks, 8d, qd, 4h, ad, jd, 7s, 8c, ah, td, as, 7h, 8s, ac, qc, 6c]
+Table: [kc, kd, kh, 2s, 2h, 2d]
+DISCARD: Which card to discard? 1...7
+1...7> 1
 Discarding card 1.
-Player 1: 10
-Player 2: 3
-Player 1 wins!
+Player 1: 31
+Player 2: 41
+Player 2 wins!
