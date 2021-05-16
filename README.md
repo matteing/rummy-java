@@ -6,6 +6,7 @@ The game is implemented as a command-line interface for two players. To play, ju
 
 On each turn, players can look at their hand and the stack. They can withdraw from the deck or stack, then discard. If a set (three or more cards of the same rank) is found, the game will ask the user whether to lay the set or not.
 
+The game is over once a hand, or the deck, are empty. Then, hands are evaluated, and the one with the greatest points win. Ties are possible.
 ## Deviations from original implementation
 I implemented the game utilizing the provided interfaces, but discarded the GUI. The project rubric never stated the GUI as a requirement: instead, it was optional.
 
