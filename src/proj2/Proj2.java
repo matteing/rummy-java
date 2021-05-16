@@ -49,14 +49,16 @@ public class Proj2 {
                 engine.takeAndRender(new DrawFromStackOperation(hand));
             }
             printState(hand, engine);
-            System.out.println("LAY: Lay a set? (n/set #...)");
-            System.out.print("n/set #> ");
-            command = console.next();
-            if (!command.equals("n")) {
-                System.out.printf("Laying set %s.%n", command);
-                engine.takeAndRender(new LaySetOperation(hand, Integer.parseInt(command) - 1));
+            if (hand.findSets().size() > 0) {
+                System.out.println("LAY: Lay a set? (n/set #...)");
+                System.out.print("n/set #> ");
+                command = console.next();
+                if (!command.equals("n")) {
+                    System.out.printf("Laying set %s.%n", command);
+                    engine.takeAndRender(new LaySetOperation(hand, Integer.parseInt(command) - 1));
+                }
+                printState(hand, engine);
             }
-            printState(hand, engine);
             System.out.printf("DISCARD: Which card to discard? 1...%s%n", hand.getNumberOfCards());
             System.out.printf("1...%s> ", hand.getNumberOfCards());
             command = console.next();
