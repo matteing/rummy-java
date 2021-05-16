@@ -49,7 +49,7 @@ public class Hand implements HandInterface {
                     cList.add(card);
                 }
             }
-            if (cList.size() > 1) {
+            if (cList.size() >= 3) {
                 sets.add(cList);
             }
         }
